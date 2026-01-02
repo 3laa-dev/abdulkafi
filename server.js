@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const postsRouter = require("./Routers/Posts.router");
-const adminRouter = require("./Routers/Admin.router");
+const postsRouter = require("./routers/Posts.router");
+const adminRouter = require("./routers/Admin.router");
 const cors = require("cors");
 const path = require("path");
 
