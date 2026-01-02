@@ -1,6 +1,6 @@
-const Admin = require('../Models/admin.model');
+const Admin = require('../models/admin.model');
 const bcrypt = require('bcrypt');
-const generateJWT = require('../Utils/generateJWT');
+const generateJWT = require('../utils/generateJWT');
 const addAdmin = async (req, res) => {
     const { UserName, Password } = req.body;
     const test =await Admin.findOne({UserName});
