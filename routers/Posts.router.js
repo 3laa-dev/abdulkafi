@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Controllers = require('../Controllers/posts.controllers');
+const Controllers = require('../controllers/posts.controllers');
 const { Guid } = require('js-guid');
 const multer = require('multer');
 const verifyToken = require('../Utils/verifyToken');
